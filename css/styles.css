@@ -7973,6 +7973,24 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+.box {
+  width: 150px;
+  height: 150px; 
+  border-radius: 70%;
+  overflow: hidden;
+}
+.box-member {
+  width: 100px;
+  height: 100px; 
+  border-radius: 70%;
+  overflow: hidden;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
