@@ -17,12 +17,14 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-5">
+                <!-- 파워온 URL 부분 - 혹시 도메인 변경할 경우 변경 필요 -->
                 <a class="navbar-brand" href="https://poweron.club">
                     <img src="assets/poweron-text.svg" alt="POWER-ON" width="auto" height="30rem"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <!-- 페이지들로 가는 링크, 마지막 contact는 이메일로 연결! -->
                         <li class="nav-item"><a class="nav-link" href="https://poweron.club">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://poweron.club/about">About</a></li>
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://poweron.club/project">Project</a></li>
@@ -40,21 +42,29 @@
             </p>
             <!-- Heading Row-->
             <section class="section mt-5 mb-5" style="display:flex; flex-direction:row; flex-wrap:wrap; justify-items: center; align-items: center;">
+                <!-- 최신 프로젝트가 위로 가도록 여기에 복붙 바람!! -->
+                <!-- 블록 시작 -->
                 <div class="card flex-grow-0 text-white mb-5 mx-1 text-center" style="width:550px; height:350px; border:20%">
+                    <!-- 프로젝트 이미지, assets/ 폴더에 넣어서 경로를 src에 써주면 됨! 이미지는 16:9 비율에 가깝게 하는 걸 권장 -->
                     <img class="card-img-top" src="assets/IMG_0949 (1).jpeg" alt="bg-secondary" style="height:100%; filter:brightness(40%); border-radius:1.7rem">
                     <div class="card-img-overlay" style="display: flex; flex-direction:column; align-items: center;">
                         <div class="card-body flex-grow-1" style="display: flex; align-items:center; justify-items:center">
                             <p class="text-white my-1" style="display:flex; flex-direction:column; align-items:center; justify-items:center;">
+                                <!-- 프로젝트 제목 -->
                                 <h3><i class="fas fa-trophy text-warning"></i> Legged-Wheel Delivery Robot</h3>
                             </p>
                         </div>
                         <div class="flex-shrink-1" style="display:flex; flex-direction:row; align-items:center; justify-items:center">
+                            <!-- 보고서 있을 경우 보고서 버튼 -->
                             <a class="btn btn-primary mx-2" href="https://drive.google.com/file/d/1k5SgWjhvLT-ZUCIcW63BBQxe3zdU-0IL/view?usp=sharing">보고서</a>
+                            <!-- GitHub 있을 경우 Github 버튼 -->
                             <a class="btn btn-secondary mx-2" href="https://github.com/power-on-github/legged_bot_hardware"><i class="fab fa-github"></i> GitHub</a>
                         </div>
                     </div>
                 </div>
-
+                <!-- 블록 끝 -->
+                <!-- 위 블록을 복사해서 계속 붙여넣으면 됨! (하나의 단위라고 생각) -->
+                
                 <div class="card flex-grow-0 text-white mb-5 mx-1 text-center" style="width:550px; height:350px; border:20%">                    
                     <img class="card-img-top" src="assets/ksp (1).jpeg" alt="bg-secondary" style="height:100%; filter:brightness(40%); border-radius:25px">
                     <div class="card-img-overlay" style="display: flex; flex-direction:column; align-items: center;">
@@ -100,6 +110,20 @@
                     </div>
                 </div>
                 
+                <div class="card flex-grow-0 text-white mb-5 mx-1 text-center" style="width:550px; height:350px; border:20%">
+                    <img class="card-img-top" src="assets/ddpg_grasping.jpeg" alt="bg-secondary" style="height:100%; filter:brightness(40%); border-radius:1.7rem">
+                    <div class="card-img-overlay" style="display: flex; flex-direction:column; align-items: center;">
+                        <div class="card-body flex-grow-1" style="display: flex; align-items:center; justify-items:center">
+                            <p class="text-white my-1" style="display:flex; flex-direction:column; align-items:center; justify-items:center;">
+                                <h3><i class="fas fa-trophy text-warning"></i> GRLOV: POWER-ONxCV Lab.</h3>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-1" style="display:flex; flex-direction:row; align-items:center; justify-items:center">
+                            <a class="btn btn-secondary mx-2" href="https://github.com/power-on-github/GRLOV"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card flex-grow-0 text-white mb-5 mx-1 text-center" style="width:550px; height:350px; border:20%">
                     <img class="card-img-top" src="assets/hassam.jpg" alt="bg-secondary" style="height:100%; filter:brightness(40%); border-radius:25px">
                     <div class="card-img-overlay" style="display: flex; flex-direction:column; align-items: center;">
